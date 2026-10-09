@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "source_commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95",
+  "method": "Bounded public provider documentation GET checks only; no API runs, paid calls, authentication, signup, or credentials. HTTP reachability and page contents do not validate executable behavior or provider quality.",
+  "checks": [
+    {
+      "usecase_id": "rag-website-content",
+      "source_url": "https://apify.com/apify/website-content-crawler",
+      "observed_at_utc": "2026-10-09T14:31:01.083021+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/apify/website-content-crawler",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 626755,
+      "body_sha256": "726450ce37914c7031b322d46de152e9d1d6b8dbb85baceddc44fcb363ecff24",
+      "state": "public_documentation_reachable",
+      "title": "Website Content Crawler · Apify",
+      "meta_description": "Crawl websites and extract text content to feed AI models, LLM applications, vector databases, or RAG pipelines. The Actor supports rich formatting usin...",
+      "expected_terms_present": {
+        "website": true,
+        "content": true,
+        "markdown": true,
+        "rag": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/apify",
+        "/apify/website-content-crawler",
+        "/apify/website-content-crawler/input-schema",
+        "/apify/website-content-crawler/pricing",
+        "/apify/website-content-crawler/api/python",
+        "/apify/website-content-crawler/reviews",
+        "/apify/website-content-crawler/issues/open"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/apify/website-content-crawler/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/apify/website-content-crawler",
+        "https://apify.com/apify/website-content-crawler/input-schema",
+        "https://apify.com/apify/website-content-crawler/pricing",
+        "https://apify.com/apify/website-content-crawler/api/python"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/apify/website-content-crawler/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false
+    },
+    {
+      "usecase_id": "local-business-catalog",
+      "source_url": "https://apify.com/compass/crawler-google-places",
+      "observed_at_utc": "2026-10-09T14:31:01.083297+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/compass/crawler-google-places",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 966920,
+      "body_sha256": "c8f49744faef609fd282f9fadc8e84a8aed85fb56bc6ae046440f66847f316ce",
+      "state": "public_documentation_reachable",
+      "title": "📍 Google Maps Scraper · Apify",
+      "meta_description": "Extract data from any place on Google Maps. Get addresses, contact details, business leads with emails and job titles, reviews, prices, menus, coordinat...",
+      "expected_terms_present": {
+        "google": true,
+        "maps": true,
+        "business": true,
+        "reviews": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/compass/crawler-google-places/input-schema",
+        "/compass/crawler-google-places/pricing",
+        "/compass/crawler-google-places/api/python",
+        "https://developers.google.com/maps/documentation/places/web-service/search",
+        "https://docs.apify.com/integrations/webhooks",
+        "/compass/crawler-google-places/api/client/nodejs",
+        "/compass/crawler-google-places/api/client/python"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/compass/crawler-google-places/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/compass/crawler-google-places/api/python",
+        "https://apify.com/compass/crawler-google-places/api/client/nodejs",
+        "https://apify.com/compass/crawler-google-places/api/client/python",
+        "https://apify.com/compass/crawler-google-places/api"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/compass/crawler-google-places/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false
+    },
+    {
+      "usecase_id": "hotel-prices",
+      "source_url": "https://apify.com/voyager/booking-scraper",
+      "observed_at_utc": "2026-10-09T14:31:01.083756+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/voyager/booking-scraper",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 585886,
+      "body_sha256": "af2af4e23757b2dc45f5dad89d27d7ff0c06e1c0d4c6b52978bc1e6bdb4c0cfe",
+      "state": "public_documentation_reachable",
+      "title": "Booking hotel scraper · Apify",
+      "meta_description": "No-code Booking API to extract hotel and room data from Booking.com. Extract prices, hotel addresses, rating, available rooms, room features, images.",
+      "expected_terms_present": {
+        "booking": true,
+        "hotel": true,
+        "prices": true,
+        "reviews": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/voyager/booking-scraper/input-schema",
+        "/voyager/booking-scraper/pricing",
+        "/voyager/booking-scraper/api/python",
+        "https://docs.apify.com/integrations",
+        "https://docs.apify.com/integrations/webhooks",
+        "https://docs.apify.com/api/v2",
+        "/voyager/booking-scraper/api"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/voyager/booking-scraper/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/voyager/booking-scraper/api/python",
+        "https://apify.com/voyager/booking-scraper/api"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/voyager/booking-scraper/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false
+    },
+    {
+      "usecase_id": "travel-reviews",
+      "source_url": "https://apify.com/nexgendata/tripadvisor-scraper",
+      "observed_at_utc": "2026-10-09T14:31:01.084072+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/nexgendata/tripadvisor-scraper",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 427691,
+      "body_sha256": "c38652073ea7d724f42db41058c9c0a3654372783548a2d894359c8364ec11de",
+      "state": "public_documentation_reachable",
+      "title": "Tripadvisor Hotels & Restaurants — Listings Scraper · Apify",
+      "meta_description": "Tripadvisor scraper for Tripadvisor hotels, restaurants and attractions: name, rating, review count, price range, category, location, URL per listing.",
+      "expected_terms_present": {
+        "tripadvisor": true,
+        "reviews": true,
+        "restaurant": true,
+        "hotel": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/nexgendata/tripadvisor-scraper/input-schema",
+        "/nexgendata/tripadvisor-scraper/pricing",
+        "/nexgendata/tripadvisor-scraper/api/python",
+        "/api",
+        "http://linkedin.com/company/apify/",
+        "https://x.com/apify",
+        "https://github.com/apify"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/nexgendata/tripadvisor-scraper/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/nexgendata/tripadvisor-scraper/api/python"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/nexgendata/tripadvisor-scraper/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false,
+      "detail_observation": "Current provider metadata describes hotels/restaurants/attractions listings with rating and review count. Full review text and sentiment suitability are not confirmed for this actor."
+    },
+    {
+      "usecase_id": "ecommerce-price-monitor",
+      "source_url": "https://apify.com/junglee/amazon-crawler",
+      "observed_at_utc": "2026-10-09T14:31:01.876901+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/junglee/amazon-crawler",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 558405,
+      "body_sha256": "0e460886877c962daff8d293c2037e9aeb31618251b10504987a8a73d172d6a7",
+      "state": "public_documentation_reachable",
+      "title": "📦 Amazon Product Scraper · Apify",
+      "meta_description": "Scrape and extract data from Amazon by product category, country, search or product URL. Get reviews, prices, product descriptions, and ASINs.",
+      "expected_terms_present": {
+        "amazon": true,
+        "price": true,
+        "product": true,
+        "review": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/junglee/amazon-crawler/input-schema",
+        "/junglee/amazon-crawler/pricing",
+        "/junglee/amazon-crawler/api/python",
+        "/vaclavrut/amazon-crawler/input-schema",
+        "https://docs.apify.com/integrations",
+        "https://docs.apify.com/integrations/webhooks",
+        "https://docs.apify.com/api/v2"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/junglee/amazon-crawler/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/junglee/amazon-crawler/api/python"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/junglee/amazon-crawler/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false
+    },
+    {
+      "usecase_id": "invoice-extraction",
+      "source_url": "https://apyhub.com/utility/ai-document-extract-invoice",
+      "observed_at_utc": "2026-10-09T14:31:01.894770+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apyhub.com/apyhub/service/extract-invoice-data",
+      "content_type": "text/html; charset=UTF-8",
+      "body_bytes_read": 236010,
+      "body_sha256": "f0c893e059f8d3773938cbf78fefaa00485543b3aed1ed5eeed46e5a9a1a71fc",
+      "state": "public_documentation_reachable",
+      "title": "Invoice Data Extraction API | Parse PDFs and URLs — ApyHub",
+      "meta_description": "Extract structured invoice data from a file or URL. Returns ApyHub or Azure invoice parsing output for accounts payable and ingestion workflows.",
+      "expected_terms_present": {
+        "invoice": true,
+        "document": true,
+        "apy-token": true,
+        "extract": true
+      },
+      "documentation_links_sample": [
+        "/pricing",
+        "/blog/api-sprawl-ecommerce-utility-code"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apyhub.com/apyhub/service/extract-invoice-data"
+      ],
+      "integration_documentation_urls": [
+        "https://apyhub.com/apyhub/service/extract-invoice-data"
+      ],
+      "authentication_reference": "https://apyhub.com/apyhub/service/extract-invoice-data",
+      "authentication_requirement": "apy-token header; region-specific API endpoint and selected backend credentials depend on service.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": true,
+      "detail_observation": "Legacy /utility URL redirects to current /apyhub/service/extract-invoice-data documentation."
+    },
+    {
+      "usecase_id": "seo-search-results",
+      "source_url": "https://apify.com/apify/google-search-scraper",
+      "observed_at_utc": "2026-10-09T14:31:02.037125+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "final_url": "https://apify.com/apify/google-search-scraper",
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 730071,
+      "body_sha256": "77b36a10459b0ea8cb31a1465011cd05dbc3f467fdfaa120de71dae5f2f2bdd7",
+      "state": "public_documentation_reachable",
+      "title": "Google Search scraper and SERP API 🔎 · Apify",
+      "meta_description": "Extract data from Google Search pages. Scrape organic results, ads, Google AI Mode, AI overviews, People Also Ask, prices, reviews from any country or l...",
+      "expected_terms_present": {
+        "google": true,
+        "search": true,
+        "serp": true,
+        "organic": true
+      },
+      "documentation_links_sample": [
+        "https://docs.apify.com/",
+        "https://docs.apify.com/academy",
+        "https://docs.apify.com/api",
+        "https://docs.apify.com/cli/",
+        "https://docs.apify.com/sdk",
+        "https://docs.apify.com/platform/integrations/mcp",
+        "https://lu.ma/apify",
+        "/pricing",
+        "/apify",
+        "/apify/google-search-scraper",
+        "/apify/google-search-scraper/input-schema",
+        "/apify/google-search-scraper/pricing",
+        "/apify/google-search-scraper/api/python",
+        "/apify/google-search-scraper/reviews",
+        "/apify/google-search-scraper/issues/open"
+      ],
+      "input_schema_documentation_urls": [
+        "https://apify.com/apify/google-search-scraper/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/apify/google-search-scraper",
+        "https://apify.com/apify/google-search-scraper/input-schema",
+        "https://apify.com/apify/google-search-scraper/pricing",
+        "https://apify.com/apify/google-search-scraper/api/python"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/apify/google-search-scraper/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": false
+    },
+    {
+      "usecase_id": "coreclaw-local-reviews",
+      "source_url": "https://www.coreclaw.com/coreclaw/google-maps-reviews-scraper",
+      "observed_at_utc": "2026-10-09T14:31:02.498932+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 0,
+      "curl_exit_code": 28,
+      "final_url": "https://www.coreclaw.com/coreclaw/google-maps-reviews-scraper",
+      "content_type": "",
+      "body_bytes_read": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "state": "http_or_transport_error",
+      "title": null,
+      "meta_description": null,
+      "expected_terms_present": {
+        "google": false,
+        "maps": false,
+        "review": false,
+        "worker": false
+      },
+      "documentation_links_sample": [],
+      "error": "curl: (28) Connection timed out after 5002 milliseconds\n",
+      "detail_observation": "Connection timeout in this environment; no conclusion about global availability. Provider documentation at docs.coreclaw.com/api was readable through web research."
+    },
+    {
+      "usecase_id": "travel-full-reviews",
+      "source_url": "https://apify.com/agents/tripadvisor-reviews",
+      "final_url": "https://apify.com/theagents/tripadvisor-reviews",
+      "observed_at_utc": "2026-10-09T14:32:30.018382+00:00",
+      "method": "GET",
+      "authentication_used": false,
+      "execution_tested": false,
+      "source_snapshot_contains_url": true,
+      "http_status": 200,
+      "curl_exit_code": 0,
+      "content_type": "text/html; charset=utf-8",
+      "body_bytes_read": 462689,
+      "body_sha256": "c9b7751f5f3f180c80309e5ae60da1d2b8dd25e619f9b171afdf5c49200422af",
+      "state": "public_documentation_reachable",
+      "title": "Fast TripAdvisor Reviews API | Hotel, Restaurant Review · Apify",
+      "meta_description": "Extract TripAdvisor reviews, ratings, and traveler feedback from hotels, restaurants, and attractions. Structured output for hospitality intelligence.",
+      "input_schema_documentation_urls": [
+        "https://apify.com/theagents/tripadvisor-reviews/input-schema"
+      ],
+      "integration_documentation_urls": [
+        "https://apify.com/theagents/tripadvisor-reviews/api/python"
+      ],
+      "pricing_documentation_urls": [
+        "https://apify.com/theagents/tripadvisor-reviews/pricing"
+      ],
+      "authentication_reference": "https://docs.apify.com/api/v2",
+      "authentication_requirement": "Apify account API token, normally sent in Authorization Bearer header; actor-specific input and pricing must be checked.",
+      "linked_schema_pages_fetched": false,
+      "observed_redirect": true,
+      "detail_observation": "Owner path redirects from agents to theagents; current provider title and description identify review extraction. Runtime outputs still untested."
+    }
+  ],
+  "check_count": 9,
+  "reachable_count": 8,
+  "observed_redirect_count": 2
+}

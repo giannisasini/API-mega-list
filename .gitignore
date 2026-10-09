@@ -1,0 +1,7 @@
+# Local, reproducible search cache and large development artifacts.
+netlogik/dist/catalog.sqlite*
+netlogik/dist/catalog.json
+netlogik/dist/catalog.runtime.json
+netlogik/dist/.catalog-bootstrap-*/
+__pycache__/
+*.pyc

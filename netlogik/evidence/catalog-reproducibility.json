@@ -1,0 +1,14 @@
+{
+  "source_commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95",
+  "reproducible": true,
+  "artifacts": {
+    "catalog.json": true,
+    "catalog.json.gz": true,
+    "catalog.runtime.json": true,
+    "catalog.sqlite": true,
+    "quarantine.json": true,
+    "source-coverage.json": true,
+    "stats.json": true
+  },
+  "method": "Rebuilt from the packaged preserved source snapshot in a fresh copy containing only publishable git-visible files."
+}

@@ -1,0 +1,37 @@
+{
+  "verified_at": "2026-10-09T14:45:48.703599+00:00",
+  "source_commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95",
+  "catalog_sha256": "efe01a5c079dd3d01c73d8ec31088930bade602ca4b94337eec507d7bd1810e4",
+  "catalog_entries": 11981,
+  "mcp_tools": [
+    "api_catalog_search",
+    "api_catalog_get",
+    "api_catalog_stats"
+  ],
+  "fresh_mcp_checks": {
+    "passed": 25,
+    "total": 25,
+    "ok": true
+  },
+  "knowledge_documents_verified": 35,
+  "rag": {
+    "ok": true,
+    "queries": 4,
+    "relevant_usecase_first": 4,
+    "namespace": "api-mega-list:",
+    "models": [
+      "nomic-embed-text",
+      "paraphrase-multilingual"
+    ],
+    "full_catalog_embedded": false
+  },
+  "external_api_execution_tested": false,
+  "public_documentation_checks": {
+    "attempted": 9,
+    "reachable": 8,
+    "connection_timeout": 1
+  },
+  "local_catalog_tests_passed": 10,
+  "mcp_module_tests_passed": 6,
+  "clean_checkout_bootstrap_verified": true
+}

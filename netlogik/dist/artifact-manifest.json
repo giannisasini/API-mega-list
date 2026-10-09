@@ -1,0 +1,34 @@
+{
+  "artifacts": {
+    "catalog.json": {
+      "bytes": 60885549,
+      "sha256": "efe01a5c079dd3d01c73d8ec31088930bade602ca4b94337eec507d7bd1810e4"
+    },
+    "catalog.json.gz": {
+      "bytes": 3454472,
+      "sha256": "fe11c2b5d762ca31e260ffe49c4da6ab88ad486f30a3fa0fddb0bca2eb9f19e0"
+    },
+    "catalog.runtime.json": {
+      "bytes": 60885549,
+      "sha256": "efe01a5c079dd3d01c73d8ec31088930bade602ca4b94337eec507d7bd1810e4"
+    },
+    "catalog.sqlite": {
+      "bytes": 173223936,
+      "sha256": "6078d433f72f2832aeaf2d79b78a0af37c2404a92b23d79b973d213164b30ce2"
+    },
+    "quarantine.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "source-coverage.json": {
+      "bytes": 6710,
+      "sha256": "d10e68125caa35d9cc7e0f22e0ed12ace70c038b1c75853515f59947d82cf238"
+    },
+    "stats.json": {
+      "bytes": 9252,
+      "sha256": "f2f2de6bf3f5e5d3257c239c642d2c87b02fa9b419c20c0d03c3d974d15f1d6e"
+    }
+  },
+  "fts5": true,
+  "source_commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95"
+}

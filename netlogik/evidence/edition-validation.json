@@ -1,0 +1,22 @@
+{
+  "publishable_files": 50,
+  "bootstrap_started_without_sqlite": true,
+  "uncompressed_json_absent": true,
+  "fresh_bootstrap_search": {
+    "total": 2,
+    "provider": "apyhub",
+    "engine": "fts5"
+  },
+  "tests_passed": 10,
+  "reproducible_artifacts": {
+    "catalog.json": true,
+    "catalog.json.gz": true,
+    "catalog.runtime.json": true,
+    "catalog.sqlite": true,
+    "quarantine.json": true,
+    "source-coverage.json": true,
+    "stats.json": true
+  },
+  "all_passed": true,
+  "seconds": 21.52
+}

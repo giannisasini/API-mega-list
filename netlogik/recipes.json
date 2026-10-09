@@ -1,0 +1,504 @@
+{
+  "source_commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95",
+  "curation_basis": "Usecase relevance inferred from source listings and bounded current provider documentation observations; not a runtime endorsement or fully built application.",
+  "recipes": [
+    {
+      "name": "NetLogik Knowledge Ingest",
+      "benefit_el": "Μετατροπή εταιρικών ιστοσελίδων και εγγράφων σε καθαρό υλικό για το υπάρχον RAG.",
+      "candidate_urls": [
+        "https://apify.com/apify/website-content-crawler",
+        "https://apyhub.com/utility/ai-document-extract-document"
+      ],
+      "output": "Source URL, retrieved timestamp, content hash, extracted text, changed-page report, RAG ingestion job.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "ιστοσελίδα γνώση RAG",
+        "website content crawler markdown"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        },
+        {
+          "provider": "apyhub",
+          "source": "https://apyhub.com/",
+          "verified": "2026-10-09",
+          "summary": "Service-specific endpoints and costs; apy-token header. Current catalog shows region-specific hosts such as api.eu.apyhub.com. Old /utility links are documentation URLs, not directly callable endpoints. Obtain current service documentation before generating executable adapters."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://apify.com/apify/website-content-crawler",
+          "final_url": "https://apify.com/apify/website-content-crawler",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Website Content Crawler · Apify",
+          "meta_description": "Crawl websites and extract text content to feed AI models, LLM applications, vector databases, or RAG pipelines. The Actor supports rich formatting usin...",
+          "observed_at_utc": "2026-10-09T14:31:01.083021+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler",
+            "https://apify.com/apify/website-content-crawler/input-schema",
+            "https://apify.com/apify/website-content-crawler/pricing",
+            "https://apify.com/apify/website-content-crawler/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "SPK Travel Intelligence",
+      "benefit_el": "Παρακολούθηση τιμών καταλυμάτων και συγκέντρωση αξιολογήσεων για τουριστικά έργα.",
+      "candidate_urls": [
+        "https://apify.com/voyager/booking-scraper",
+        "https://apify.com/nexgendata/tripadvisor-scraper",
+        "https://apify.com/agents/tripadvisor-reviews"
+      ],
+      "output": "Hotel comparison dashboard, normalized date/currency data, review sentiment and evidence links.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "ξενοδοχεία τιμές τουρισμός",
+        "Booking hotels reviews hospitality"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        },
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        }
+      ],
+      "live_caveat": "Use dedicated review extraction for sentiment; nexgendata listing scraper currently advertises ratings/review counts only.",
+      "live_observations": [
+        {
+          "source_url": "https://apify.com/voyager/booking-scraper",
+          "final_url": "https://apify.com/voyager/booking-scraper",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Booking hotel scraper · Apify",
+          "meta_description": "No-code Booking API to extract hotel and room data from Booking.com. Extract prices, hotel addresses, rating, available rooms, room features, images.",
+          "observed_at_utc": "2026-10-09T14:31:01.083756+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/voyager/booking-scraper/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/voyager/booking-scraper/api/python",
+            "https://apify.com/voyager/booking-scraper/api"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/voyager/booking-scraper/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        },
+        {
+          "source_url": "https://apify.com/nexgendata/tripadvisor-scraper",
+          "final_url": "https://apify.com/nexgendata/tripadvisor-scraper",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Tripadvisor Hotels & Restaurants — Listings Scraper · Apify",
+          "meta_description": "Tripadvisor scraper for Tripadvisor hotels, restaurants and attractions: name, rating, review count, price range, category, location, URL per listing.",
+          "observed_at_utc": "2026-10-09T14:31:01.084072+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/nexgendata/tripadvisor-scraper/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/nexgendata/tripadvisor-scraper/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/nexgendata/tripadvisor-scraper/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": "Current provider metadata describes hotels/restaurants/attractions listings with rating and review count. Full review text and sentiment suitability are not confirmed for this actor.",
+          "execution_tested": false
+        },
+        {
+          "source_url": "https://apify.com/agents/tripadvisor-reviews",
+          "final_url": "https://apify.com/theagents/tripadvisor-reviews",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Fast TripAdvisor Reviews API | Hotel, Restaurant Review · Apify",
+          "meta_description": "Extract TripAdvisor reviews, ratings, and traveler feedback from hotels, restaurants, and attractions. Structured output for hospitality intelligence.",
+          "observed_at_utc": "2026-10-09T14:32:30.018382+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/theagents/tripadvisor-reviews/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/theagents/tripadvisor-reviews/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/theagents/tripadvisor-reviews/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": "Owner path redirects from agents to theagents; current provider title and description identify review extraction. Runtime outputs still untested.",
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "NetLogik Local Business Research",
+      "benefit_el": "Έρευνα επιχειρήσεων ανά περιοχή, εμπλουτισμός CRM και έλεγχος ιστοσελίδων.",
+      "candidate_urls": [
+        "https://apify.com/compass/crawler-google-places",
+        "https://apify.com/apify/website-content-crawler"
+      ],
+      "output": "Deduplicated company records with provenance and web audit; outreach is a separate user-authorized action.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "επιχειρήσεις ανά περιοχή CRM",
+        "Google Maps business website"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        },
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://apify.com/apify/website-content-crawler",
+          "final_url": "https://apify.com/apify/website-content-crawler",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Website Content Crawler · Apify",
+          "meta_description": "Crawl websites and extract text content to feed AI models, LLM applications, vector databases, or RAG pipelines. The Actor supports rich formatting usin...",
+          "observed_at_utc": "2026-10-09T14:31:01.083021+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler",
+            "https://apify.com/apify/website-content-crawler/input-schema",
+            "https://apify.com/apify/website-content-crawler/pricing",
+            "https://apify.com/apify/website-content-crawler/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/apify/website-content-crawler/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        },
+        {
+          "source_url": "https://apify.com/compass/crawler-google-places",
+          "final_url": "https://apify.com/compass/crawler-google-places",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "📍 Google Maps Scraper · Apify",
+          "meta_description": "Extract data from any place on Google Maps. Get addresses, contact details, business leads with emails and job titles, reviews, prices, menus, coordinat...",
+          "observed_at_utc": "2026-10-09T14:31:01.083297+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/compass/crawler-google-places/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/compass/crawler-google-places/api/python",
+            "https://apify.com/compass/crawler-google-places/api/client/nodejs",
+            "https://apify.com/compass/crawler-google-places/api/client/python",
+            "https://apify.com/compass/crawler-google-places/api"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/compass/crawler-google-places/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "SEO and AI Visibility Monitor",
+      "benefit_el": "Έλεγχος οργανικών αποτελεσμάτων, ανταγωνιστών και εμφανίσεων σε απαντήσεις AI.",
+      "candidate_urls": [
+        "https://apify.com/apify/google-search-scraper",
+        "https://apify.com/inovaflow/ai-brand-monitoring"
+      ],
+      "output": "Keyword/location snapshots, ranking changes, citations and client reports.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "SEO κατάταξη ανταγωνιστές αναζήτηση",
+        "Google SERP keywords AI visibility"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        },
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://apify.com/apify/google-search-scraper",
+          "final_url": "https://apify.com/apify/google-search-scraper",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Google Search scraper and SERP API 🔎 · Apify",
+          "meta_description": "Extract data from Google Search pages. Scrape organic results, ads, Google AI Mode, AI overviews, People Also Ask, prices, reviews from any country or l...",
+          "observed_at_utc": "2026-10-09T14:31:02.037125+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/apify/google-search-scraper/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/apify/google-search-scraper",
+            "https://apify.com/apify/google-search-scraper/input-schema",
+            "https://apify.com/apify/google-search-scraper/pricing",
+            "https://apify.com/apify/google-search-scraper/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/apify/google-search-scraper/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "Greek Property Research",
+      "benefit_el": "Συγκέντρωση αγγελιών ακινήτων και παρακολούθηση τιμών ανά περιοχή στην Ελλάδα.",
+      "candidate_urls": [
+        "https://apify.com/swerve/spitogatos-scraper",
+        "https://apify.com/logiover/xe-gr-real-estate-scraper-greece-property-data"
+      ],
+      "output": "Property comparison with date, location, asking price, price per square metre, duplicate detection, source URLs.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "Ελλάδα ακίνητα τιμές αγγελίες",
+        "Greece Spitogatos xe real estate"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        },
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        }
+      ],
+      "live_observations": []
+    },
+    {
+      "name": "Document Processing Desk",
+      "benefit_el": "Εξαγωγή στοιχείων παραστατικών, μετατροπές αρχείων και υποστήριξη διοικητικών εργασιών.",
+      "candidate_urls": [
+        "https://apyhub.com/utility/ai-document-extract-invoice",
+        "https://apyhub.com/utility/ai-document-extract-receipt"
+      ],
+      "output": "Structured draft records and confidence checks for human review; provider-specific API schemas required.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "τιμολόγια παραστατικά OCR",
+        "invoice receipt extraction"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apyhub",
+          "source": "https://apyhub.com/",
+          "verified": "2026-10-09",
+          "summary": "Service-specific endpoints and costs; apy-token header. Current catalog shows region-specific hosts such as api.eu.apyhub.com. Old /utility links are documentation URLs, not directly callable endpoints. Obtain current service documentation before generating executable adapters."
+        },
+        {
+          "provider": "apyhub",
+          "source": "https://apyhub.com/",
+          "verified": "2026-10-09",
+          "summary": "Service-specific endpoints and costs; apy-token header. Current catalog shows region-specific hosts such as api.eu.apyhub.com. Old /utility links are documentation URLs, not directly callable endpoints. Obtain current service documentation before generating executable adapters."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://apyhub.com/utility/ai-document-extract-invoice",
+          "final_url": "https://apyhub.com/apyhub/service/extract-invoice-data",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "Invoice Data Extraction API | Parse PDFs and URLs — ApyHub",
+          "meta_description": "Extract structured invoice data from a file or URL. Returns ApyHub or Azure invoice parsing output for accounts payable and ingestion workflows.",
+          "observed_at_utc": "2026-10-09T14:31:01.894770+00:00",
+          "input_schema_documentation_urls": [
+            "https://apyhub.com/apyhub/service/extract-invoice-data"
+          ],
+          "integration_documentation_urls": [
+            "https://apyhub.com/apyhub/service/extract-invoice-data"
+          ],
+          "pricing_documentation_urls": null,
+          "authentication_reference": "https://apyhub.com/apyhub/service/extract-invoice-data",
+          "detail_observation": "Legacy /utility URL redirects to current /apyhub/service/extract-invoice-data documentation.",
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "Commerce Price Watch",
+      "benefit_el": "Παρακολούθηση τιμών προϊόντων και συγκρίσεις για ηλεκτρονικά καταστήματα.",
+      "candidate_urls": [
+        "https://apify.com/junglee/amazon-crawler"
+      ],
+      "output": "Timestamped product/variant identifiers, currency, price, availability and changes dashboard.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "τιμές προϊόντων ηλεκτρονικό κατάστημα",
+        "Amazon ecommerce price monitor"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "apify",
+          "source": "https://docs.apify.com/api/v2/actors-runs-post",
+          "verified": "2026-10-09",
+          "summary": "POST /v2/actors/{owner~name}/runs starts a run. Check current input schema/pricing first. Header token authentication is preferred. maxTotalChargeUsd caps total run charge; maxItems caps billable pay-per-result items and does not guarantee output size. Poll run then retrieve dataset by defaultDatasetId."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://apify.com/junglee/amazon-crawler",
+          "final_url": "https://apify.com/junglee/amazon-crawler",
+          "http_status": 200,
+          "state": "public_documentation_reachable",
+          "title": "📦 Amazon Product Scraper · Apify",
+          "meta_description": "Scrape and extract data from Amazon by product category, country, search or product URL. Get reviews, prices, product descriptions, and ASINs.",
+          "observed_at_utc": "2026-10-09T14:31:01.876901+00:00",
+          "input_schema_documentation_urls": [
+            "https://apify.com/junglee/amazon-crawler/input-schema"
+          ],
+          "integration_documentation_urls": [
+            "https://apify.com/junglee/amazon-crawler/api/python"
+          ],
+          "pricing_documentation_urls": [
+            "https://apify.com/junglee/amazon-crawler/pricing"
+          ],
+          "authentication_reference": "https://docs.apify.com/api/v2",
+          "detail_observation": null,
+          "execution_tested": false
+        }
+      ]
+    },
+    {
+      "name": "Local Review Monitor",
+      "benefit_el": "Συγκέντρωση κριτικών και θεμάτων εξυπηρέτησης για τοπικές επιχειρήσεις.",
+      "candidate_urls": [
+        "https://www.coreclaw.com/coreclaw/google-maps-reviews-scraper"
+      ],
+      "output": "Review timeline, recurring complaints, response drafts for human approval.",
+      "candidates_present_in_snapshot": true,
+      "status": "candidate_recipe_not_executed_or_quality_endorsed",
+      "query_terms": [
+        "κριτικές τοπικών επιχειρήσεων",
+        "Google Maps reviews sentiment"
+      ],
+      "preparation_steps": [
+        "Read current provider page and input/output schema",
+        "Confirm available account credentials and pricing/limits",
+        "Define minimal sample, expected outputs, and budget cap",
+        "Test selected integration before adding scheduled automation"
+      ],
+      "provider_access": [
+        {
+          "provider": "coreclaw",
+          "source": "https://docs.coreclaw.com/api/",
+          "verified": "2026-10-09",
+          "summary": "Base https://openapi.coreclaw.com, /api/v2 paths. Prefer Authorization Bearer API key. Store search is public. Read Worker-specific input schema before calling POST /api/v2/workers/{workerId}/runs; polling uses returned runId."
+        }
+      ],
+      "live_observations": [
+        {
+          "source_url": "https://www.coreclaw.com/coreclaw/google-maps-reviews-scraper",
+          "final_url": "https://www.coreclaw.com/coreclaw/google-maps-reviews-scraper",
+          "http_status": 0,
+          "state": "http_or_transport_error",
+          "title": null,
+          "meta_description": null,
+          "observed_at_utc": "2026-10-09T14:31:02.498932+00:00",
+          "input_schema_documentation_urls": null,
+          "integration_documentation_urls": null,
+          "pricing_documentation_urls": null,
+          "authentication_reference": null,
+          "detail_observation": "Connection timeout in this environment; no conclusion about global availability. Provider documentation at docs.coreclaw.com/api was readable through web research.",
+          "execution_tested": false
+        }
+      ]
+    }
+  ]
+}

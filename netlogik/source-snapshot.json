@@ -1,0 +1,226 @@
+{
+  "source": {
+    "commit": "be78c4e79b5f31f6969ebdb94396942d64c6cf95",
+    "commit_date": "2026-07-23T15:20:06-04:00",
+    "repo": "https://github.com/giannisasini/API-mega-list",
+    "upstream": "https://github.com/cporter202/API-mega-list"
+  },
+  "files": [
+    {
+      "candidate_rows": 623,
+      "parsed_rows": 623,
+      "path": "agents-apis-623/README.md",
+      "quarantined_rows": 0,
+      "sha256": "6c17df6819d7bc39542a555a28a2ad819475cf37a46919fee93011adf48b1dc0",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 1555,
+      "parsed_rows": 1555,
+      "path": "ai-apis-1555/README.md",
+      "quarantined_rows": 0,
+      "sha256": "c105dff792f4b46fdfab432d533b9d482d93f1ff3d90285d5fd150599cbb93ae",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 5653,
+      "parsed_rows": 5653,
+      "path": "automation-apis-5653/README.md",
+      "quarantined_rows": 0,
+      "sha256": "3b6a1254542b28204eb3f1aa0716cac84bd11afd705aaf417d0ada798ece2f51",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 514,
+      "parsed_rows": 514,
+      "path": "business-apis-514/README.md",
+      "quarantined_rows": 0,
+      "sha256": "0a2caa215c98ea13c22091af4f1eb8192445527b9088d3e8c92bcb807c0366b3",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 4065,
+      "parsed_rows": 4065,
+      "path": "developer-tools-apis-4065/README.md",
+      "quarantined_rows": 0,
+      "sha256": "79e5ed48c532a9339a545ecf645e7242515f7a16b2d89f2bf713631bbedb90e3",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 2245,
+      "parsed_rows": 2245,
+      "path": "ecommerce-apis-2245/README.md",
+      "quarantined_rows": 0,
+      "sha256": "dfd0af8338f15f5832508b1445cd8357f2728bef8a19de75e3daef35861af931",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 46,
+      "parsed_rows": 46,
+      "path": "education-apis-46/README.md",
+      "quarantined_rows": 0,
+      "sha256": "4976188d4113accf1216d57b8eb1ba9130fe2252ad7204c888323915ad61d6fb",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 16,
+      "parsed_rows": 16,
+      "path": "for-creators-apis-16/README.md",
+      "quarantined_rows": 0,
+      "sha256": "79a7f8d14d5da2972363abbbefc720aa90e1064f8190c3e42ceb0385387c3fdb",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 6,
+      "parsed_rows": 6,
+      "path": "games-apis-6/README.md",
+      "quarantined_rows": 0,
+      "sha256": "89bf244f0a50947f253314521e1522c619ba7503fd4e472dc6c41c9106fd6da4",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 841,
+      "parsed_rows": 841,
+      "path": "integrations-apis-841/README.md",
+      "quarantined_rows": 0,
+      "sha256": "fe50e972bd4b8aecbbdf5205501ddfb75b0111344c692053b8941e2410163043",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 1149,
+      "parsed_rows": 1149,
+      "path": "jobs-apis-1149/README.md",
+      "quarantined_rows": 0,
+      "sha256": "cc870c81aea708934587e02ab836591d017d5aad2d3a9d679d4bc3a4b615c7ae",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 4431,
+      "parsed_rows": 4431,
+      "path": "lead-generation-apis-4431/README.md",
+      "quarantined_rows": 0,
+      "sha256": "195f1aee24936e011c94b85f6051d1b5216b9da4a1922f73de24073a3f841af8",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 290,
+      "parsed_rows": 290,
+      "path": "marketing-apis-290/README.md",
+      "quarantined_rows": 0,
+      "sha256": "fe54dfc4245e5d156e985e4217d58afb8aa75c7c4fa526982fb15befea5d432a",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 289,
+      "parsed_rows": 289,
+      "path": "mcp-servers-apis-289/README.md",
+      "quarantined_rows": 0,
+      "sha256": "37492d8ea88de6be528b7128a171cd1afcee7d012d8dbe56f428ef30ef60f0bb",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 537,
+      "parsed_rows": 537,
+      "path": "news-apis-537/README.md",
+      "quarantined_rows": 0,
+      "sha256": "e562b18ca01e8b207050419cb6a6e5f4132c1c6470512750b7614823f2eaeddf",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 84,
+      "parsed_rows": 84,
+      "path": "open-source-apis-84/README.md",
+      "quarantined_rows": 0,
+      "sha256": "4f18ebce9eceee7c6a9dfde454d469514694b04f8b8cbb6a4ca6f84366454e08",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 1944,
+      "parsed_rows": 1944,
+      "path": "other-apis-1944/README.md",
+      "quarantined_rows": 0,
+      "sha256": "1e0e471284abaf09425e9fe75afe376a32886efff0ec16924dcdf3cc393ad678",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 1089,
+      "parsed_rows": 1089,
+      "path": "real-estate-apis-1089/README.md",
+      "quarantined_rows": 0,
+      "sha256": "8a998d7d99decea2359b292f8c613094329f35e919a8c1d916322d322c79f54c",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 903,
+      "parsed_rows": 903,
+      "path": "seo-tools-apis-903/README.md",
+      "quarantined_rows": 0,
+      "sha256": "4533ad190cbc49a25c33f327d673e52f3c6f6a3328da76a889961ce7fbc40ee7",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 2786,
+      "parsed_rows": 2786,
+      "path": "social-media-apis-2786/README.md",
+      "quarantined_rows": 0,
+      "sha256": "8f270116ef54db9f5417831f5f027e0f9279a911ea007f0d121d15e9414ce38c",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 21,
+      "parsed_rows": 21,
+      "path": "sports-apis-21/README.md",
+      "quarantined_rows": 0,
+      "sha256": "e5786d8d8d59dcfb317bea585ebc4876021055354517a3f19931017aeb923ba7",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 493,
+      "parsed_rows": 493,
+      "path": "travel-apis-493/README.md",
+      "quarantined_rows": 0,
+      "sha256": "ea4b657370ee80c6aa62f4b1e3827748d7ee46fa1d9f307f5295af971e4aea90",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 705,
+      "parsed_rows": 705,
+      "path": "videos-apis-705/README.md",
+      "quarantined_rows": 0,
+      "sha256": "1230e6ff7b3a9c36c2d4dca24d83a41b379308e0bce096e8a4e15c843fe48509",
+      "source_kind": "core_category"
+    },
+    {
+      "candidate_rows": 30285,
+      "parsed_rows": 30285,
+      "path": "README.md",
+      "quarantined_rows": 0,
+      "sha256": "9db9c6bebadd6babab71c05b12bf54a9bf1d801e2aeca33fb44645e8935a3203",
+      "source_kind": "root_duplicate"
+    },
+    {
+      "candidate_rows": 30292,
+      "parsed_rows": 30292,
+      "path": "settings/APIFY_ACTORS.md",
+      "quarantined_rows": 0,
+      "sha256": "5996cf92a3846f2e6d9f03155505345f5de537689ac662600245da09e3679bf1",
+      "source_kind": "raw_actor"
+    },
+    {
+      "candidate_rows": 314,
+      "parsed_rows": 314,
+      "path": "00-featured-apis/apyhub-utility-apis/README.md",
+      "quarantined_rows": 0,
+      "sha256": "2c6da340d02cc49735017e8e9148bb20cc5509c6cecfb4639f44d6712e77c460",
+      "source_kind": "sponsored"
+    },
+    {
+      "candidate_rows": 118,
+      "parsed_rows": 118,
+      "path": "00-featured-apis/coreclaw-scraper-apis/README.md",
+      "quarantined_rows": 0,
+      "sha256": "071ab60cdb082bd722213569584f381fc982b4cd90e3490bb5f00c9a65eadecf",
+      "source_kind": "sponsored"
+    }
+  ]
+}
